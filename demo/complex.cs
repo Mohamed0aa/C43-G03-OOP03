@@ -22,11 +22,23 @@ namespace demo
 
             };
         }
+
+        public static complex operator ++(complex x)
+        {
+            return new complex
+            {
+                real = (x?.real ?? 0) + 1,
+                imag = (x?.imag ?? 0)
+
+            };
+        }
         #endregion
 
         public override string ToString()
         {
             return $"{real}+{imag}i";
         }
+
+
     }
 }
