@@ -1,4 +1,6 @@
-﻿namespace demo
+﻿using System.Security.Cryptography;
+
+namespace demo
 {
     internal class Program
     {
@@ -39,11 +41,20 @@
             #endregion
 
             #region vedio 4 comparsion operator
-            complex c1 = new complex() { real = 5, imag = 3 };
-            complex c2 = new complex() { real = 1, imag = 2 };
-            if (c1 > c2) Console.WriteLine("c1is biggest");
-            else if (c1 < c2) Console.WriteLine("c2is least");
-            else Console.WriteLine("equale");
+            //complex c1 = new complex() { real = 5, imag = 3 };
+            //complex c2 = new complex() { real = 1, imag = 2 };
+            //if (c1 > c2) Console.WriteLine("c1is biggest");
+            //else if (c1 < c2) Console.WriteLine("c2is least");
+            //else Console.WriteLine("equale");
+            #endregion
+
+            #region vedio 5 casting operator overloading
+            complex c1 = new complex()
+            {
+                real = 1, imag = 2
+            };
+            int n = (int)c1;
+            Console.WriteLine(n);
             #endregion
 
 

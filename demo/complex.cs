@@ -56,10 +56,23 @@ namespace demo
             else
                 return x?.real < y?.real;
         }
-        #endregion
 
         #endregion
 
+        #endregion
+
+        #region casting overloading
+        //explicit casting
+        public static explicit operator int (complex x)
+        {
+            return (x?.real ?? 0);
+        }
+
+        public static explicit operator string(complex x)
+        {
+            return (x?.real.ToString() ?? "");
+        }
+        #endregion
         public override string ToString()
         {
             return $"{real}+{imag}i";
