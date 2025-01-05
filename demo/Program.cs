@@ -26,12 +26,30 @@
             #endregion
 
             #region vedio 2 binary operator
-            complex c1 =new complex() { real = 1, imag = 2 };
-            complex c2 = new complex() { real = 1, imag = 2 };
-            complex c3;
-            c3 = c1 + c2;
-            Console.WriteLine(c3);
+            //complex c1 =new complex() { real = 1, imag = 2 };
+            //complex c2 = new complex() { real = 1, imag = 2 };
+            //complex c3;
+            //c3 = c1 + c2;
+            //Console.WriteLine(c3);
             #endregion
+            #region vedio 3 unary operator
+            //complex c1 = new complex() { real = 1, imag = 2 };
+            //c1++;
+            //Console.WriteLine(c1);
+            #endregion
+
+            #region vedio 4 comparsion operator
+            complex c1 = new complex() { real = 5, imag = 3 };
+            complex c2 = new complex() { real = 1, imag = 2 };
+            if (c1 > c2) Console.WriteLine("c1is biggest");
+            else if (c1 < c2) Console.WriteLine("c2is least");
+            else Console.WriteLine("equale");
+            #endregion
+
+
+
+
+
         }
     }
 }

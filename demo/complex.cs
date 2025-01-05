@@ -13,16 +13,19 @@ namespace demo
 
         #region operator over loading
 
+        #region binary
         public static complex operator +(complex x, complex y)
         {
             return new complex
             {
-                real = (x?.real??0) + (y?.real ?? 0),
-                imag= (x?.imag ?? 0) + (y?.imag ?? 0)
+                real = (x?.real ?? 0) + (y?.real ?? 0),
+                imag = (x?.imag ?? 0) + (y?.imag ?? 0)
 
             };
-        }
+        } 
+        #endregion
 
+        #region unary
         public static complex operator ++(complex x)
         {
             return new complex
@@ -31,7 +34,30 @@ namespace demo
                 imag = (x?.imag ?? 0)
 
             };
+        } 
+        #endregion
+
+        #region comparsion
+        public static bool operator >(complex x, complex y)
+        {
+            if (x?.real == y?.real)
+            {
+                return x?.imag > y?.imag;
+            }
+            else
+                return x?.real > y?.real;
         }
+        public static bool operator <(complex x, complex y)
+        {
+            if (x?.real == y?.real)
+            {
+                return x?.imag < y?.imag;
+            }
+            else
+                return x?.real < y?.real;
+        }
+        #endregion
+
         #endregion
 
         public override string ToString()
