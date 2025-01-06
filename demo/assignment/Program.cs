@@ -38,6 +38,18 @@ namespace assignment
             //m.work();
             #endregion
 
+            #region q5
+            //typeA TP1 = new typeB();
+            //TP1.myfun1();
+            ////static binding :copilar will binding function  call based on refrence not object
+            ////at compilation time
+
+            //typeA TP = new typec();
+            //TP.myfun1();
+            ////dynamic binding [late]
+            ////clr  will bind function call based on object not refrence
+            ////at run time
+            #endregion
         }
     }
 }
