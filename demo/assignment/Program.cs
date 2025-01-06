@@ -50,6 +50,44 @@ namespace assignment
             ////clr  will bind function call based on object not refrence
             ////at run time
             #endregion
+
+            #region q6-part2 :
+            //Duration d = new(3600);
+            //Console.WriteLine(d);
+            //d = new(666);
+            //Console.WriteLine(d);
+            //d = new(10, 5, 1);
+            //Console.WriteLine(d);
+
+            //Duration D1 = new Duration(1, 10, 15);
+            //Console.WriteLine(D1);
+            //D1 = new Duration(3600);
+            //Console.WriteLine(D1);
+            //Duration D2 = new Duration(7800);
+            //Console.WriteLine(D2);
+
+            //Duration D3 = new Duration(666);
+            //Console.WriteLine(D3);
+            //D3 = D1 + D2;
+            //Console.WriteLine(D3);
+            //D3 = D1 + 7800;
+            //Console.WriteLine(D3);
+            //D3 = 666 + D3;
+            //Console.WriteLine(D3);
+            //D3 = ++D1;
+            //Console.WriteLine(D3);
+            //D3 = --D2;
+            //Console.WriteLine(D3);
+            //D1 = D1 - D2;
+            //Console.WriteLine(D3);
+            //if (D1 >= D2) { Console.WriteLine("d1 greater"); }
+            //if (D1 <= D2) { Console.WriteLine("d2 greater"); }
+            ////   if (D1) { Console.WriteLine("NotFiniteNumberException 0"); }  xxxxxx
+            //DateTime obj =(DateTime) D1;
+
+
+
+            #endregion
         }
     }
 }
