@@ -82,6 +82,23 @@ namespace demo
 
             #endregion
 
+            #region 8 BINDING
+
+            typeA TP = new typeB(1,2);
+            TP.a = 11;
+            TP.myfun1();
+            
+            //static binding :copilar will binding function  call based on refrence not object
+            //at compilation time
+            TP.myfun2();
+            //dynamic binding [late]
+            //clr  will bind function call based on object not refrence
+            //at run time
+
+
+
+            #endregion
+
 
 
 
