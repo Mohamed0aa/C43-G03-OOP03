@@ -31,6 +31,13 @@ namespace assignment
             // c3 = c1 - c2;
             //Console.WriteLine("substruction is : " + c3);
             #endregion
+
+
+            #region 4 :-Create a base class named Employee with method Work those prints "Employee is working".
+            //manager m = new manager();
+            //m.work();
+            #endregion
+
         }
     }
 }
