@@ -75,6 +75,13 @@ namespace demo
             //Console.WriteLine(mo_model.password);
             #endregion
 
+            #region vedio 7 
+            //typeA TP = new typeA(1);
+            //TP.a = 11;
+            //TP.myfun2();
+
+            #endregion
+
 
 
 
