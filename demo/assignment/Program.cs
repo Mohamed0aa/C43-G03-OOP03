@@ -1,4 +1,6 @@
-﻿namespace assignment
+﻿using demo;
+
+namespace assignment
 {
     internal class Program
     {
@@ -15,6 +17,19 @@
             //rectangle rec = new rectangle(1,2);
             //rectangle rec1 = new rectangle(1, 2);
             //rectangle rec2 = new rectangle(5);
+            #endregion
+
+            #region q3 : Define a class Complex Number that represents a complex number with real and imaginary parts.
+            //complex c1 = new complex();
+            //c1.real = 1;
+            //c1.imag = 2;
+            //complex c2 = new complex();
+            //c2.real = 3;
+            //c2.imag = 4;
+            //complex c3 = c1 + c2;
+            //Console.WriteLine("sumtion is : "+c3);
+            // c3 = c1 - c2;
+            //Console.WriteLine("substruction is : " + c3);
             #endregion
         }
     }
