@@ -49,12 +49,30 @@ namespace demo
             #endregion
 
             #region vedio 5 casting operator overloading
-            complex c1 = new complex()
-            {
-                real = 1, imag = 2
-            };
-            int n = (int)c1;
-            Console.WriteLine(n);
+            //complex c1 = new complex()
+            //{
+            //    real = 1, imag = 2
+            //};
+            //int n = (int)c1;
+            //Console.WriteLine(n);
+            #endregion
+
+            #region vedio 6 app on casting
+            //user mo = new user()
+            //{
+            //    id = 1,
+            //    name = "mohamed ali",
+            //    age = 21,
+            //    email = "mozli@gmail",
+            //    password = "password",
+            //};
+            //user_model  mo_model= (user_model)mo;
+            //Console.WriteLine(mo_model.id);
+            //Console.WriteLine(mo_model.first_name);
+            //Console.WriteLine(mo_model.last_name);
+            //Console.WriteLine(mo_model.age);
+            //Console.WriteLine(mo_model.email);
+            //Console.WriteLine(mo_model.password);
             #endregion
 
 
